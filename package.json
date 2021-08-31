@@ -12,7 +12,8 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
-    "pg": "8.5.1",
+    "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
     "strapi": "3.6.7",
     "strapi-admin": "3.6.7",
     "strapi-connector-bookshelf": "3.6.7",
@@ -24,6 +25,7 @@
     "strapi-plugin-i18n": "3.6.7",
     "strapi-plugin-upload": "3.6.7",
     "strapi-plugin-users-permissions": "3.6.7",
+    "strapi-provider-upload-google-cloud-storage": "^3.6.5",
     "strapi-utils": "3.6.7"
   },
   "author": {
