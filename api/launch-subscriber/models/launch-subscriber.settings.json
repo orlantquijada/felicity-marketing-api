@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "launch_subscribers",
+  "info": {
+    "name": "Launch Subscriber"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    }
+  }
+}
