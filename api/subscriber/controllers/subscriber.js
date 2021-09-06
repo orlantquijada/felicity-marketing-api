@@ -23,7 +23,7 @@ module.exports = {
     if (process.env.NODE_ENV === "production")
       await strapi.plugins.email.services.email.send({
         to: entity.email,
-        
+
         // subject to change
         subject: "new subject",
         text: "message",
