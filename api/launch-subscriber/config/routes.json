@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/launch-subscribers",
+      "handler": "launch-subscriber.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/launch-subscribers/count",
+      "handler": "launch-subscriber.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/launch-subscribers/:id",
+      "handler": "launch-subscriber.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/launch-subscribers",
+      "handler": "launch-subscriber.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/launch-subscribers/:id",
+      "handler": "launch-subscriber.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/launch-subscribers/:id",
+      "handler": "launch-subscriber.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
